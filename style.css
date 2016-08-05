@@ -112,7 +112,9 @@ header a{
 }
 
 header {
-  background-color:black
+  background-color:black;
+text-align: center;
+padding-bottom: 10px
 }
 
 a {
@@ -137,4 +139,8 @@ a {
   width: 150px;
   border: 0;
   transition: all 0.3s ease 0s;
+}
+
+#awesome {
+    padding-top: 
 }
