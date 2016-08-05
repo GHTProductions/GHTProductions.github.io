@@ -116,7 +116,7 @@ header {
 }
 
 button {
-  background: rec;
+  background: red;
   color: #fff;
   height: 60px;
   width: 150px;
@@ -127,3 +127,13 @@ button {
 
 section {
   padding-top:px;
+}
+
+a {
+      background: red;
+  color: #fff;
+  height: 60px;
+  width: 150px;
+  border: 0;
+  transition: all 0.3s ease 0s;
+}
