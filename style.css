@@ -87,13 +87,12 @@ section {
 
 button {
   background-color: red;
-  border: none;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-    text-decoration: none;
+  text-decoration: none;
   
 }
 
