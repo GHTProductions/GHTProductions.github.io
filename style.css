@@ -85,7 +85,7 @@ section {
 }
 
 
-button {
+button  {
   background-color: red;
   color: white;
   text-align: center;
@@ -96,6 +96,11 @@ button {
   
 }
 
+button a {
+    text-decoration:none;
+    color:white;
+    
+}
 button:hover {
   background-color: #a20000; 
   color: white;
