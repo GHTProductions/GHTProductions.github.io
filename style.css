@@ -114,7 +114,8 @@ header a{
 header {
   background-color:black;
 text-align: center;
-padding-bottom: 10px
+padding-bottom: 10px;
+    z-index:10000;
 }
 
 a {
