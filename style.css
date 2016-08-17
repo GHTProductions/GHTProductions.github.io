@@ -148,3 +148,7 @@ a {
     padding: 20px;
     font-family:impact;
 }
+
+iframe {
+    position:fixed;
+}
