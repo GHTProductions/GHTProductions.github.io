@@ -141,6 +141,6 @@ a {
     padding-top: 
 }
 
-#qbox {
-    
+a qbox {
+    width:300px;
 }
