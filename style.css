@@ -142,5 +142,8 @@ a {
 }
 
 a qbox {
-    width:300px;
+        width: 200px;
+    height: 60px;
+    font-size: 35px;
+    padding: 20px;
 }
