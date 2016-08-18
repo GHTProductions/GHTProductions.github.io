@@ -103,11 +103,11 @@ a:hover {
 }
 
 header a{
-  background-color:black;
+  background-color:rgba(0, 0, 0, 0);
 }
 
 header {
-  background-color:black;
+  background-color:rgba(0, 0, 0, 0);
 text-align: center;
 padding-bottom: 10px;
     z-index:10000;
