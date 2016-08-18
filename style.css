@@ -150,8 +150,9 @@ a {
 }
 
 iframe {
+    position:relative;
     position:fixed;
-    right:950px;
-    bottom:20px
+    left:0px;
+    bottom:0px;
     
 }
