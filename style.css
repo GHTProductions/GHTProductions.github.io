@@ -73,8 +73,11 @@ padding-bottom: 30px;
 
 #name h2 {
   font-weight: 400;
-  margin: 0;
+  margin: 0px;
   color:white;
+    margin-left:100px;
+     margin-right:100px;
+    
 }
 section {
   height: 725px;
@@ -113,9 +116,10 @@ header a{
 
 header {
   background-color:rgba(0, 0, 0, 0);
-text-align: center;
 padding-bottom: 10px;
+    padding-top: 10px;
     z-index:10000;
+    
 }
 
 a {
@@ -139,7 +143,7 @@ a {
   height: 60px;
   width: 150px;
   border: 0;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0.s;
 }
 
 #awesome {
@@ -181,3 +185,8 @@ body {
     overflow: auto;
 }
 
+body { 
+background-repeat: no-repeat; 
+    background-size: cover;
+    background-image:url(abstract.jpg)
+}
