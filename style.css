@@ -1,192 +1,265 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  background-color:black;
-    color:white;
-    background-attachment: fixed;
+
+.title{
+margin:auto;
+font-size: 30px;
+padding: 20px;
+}
+h1 {
+font-family: "Ubuntu";
+font-size: 75px
 }
 
-#name h3 {
-  font-family: Comic Sans MS;
-  font-weight: normal;
+ul {
+font-family: "Heiti TC";
+}
+
+
+img {
+height:150px;
+}
+
+body {
+background-color: black;
+background-repeat: no-repeat;
+}
+#header{
+font-size: 25px;
+}
+
+#header{
+background-size: cover;
+color: white;
+text-align: center;
+padding: 10px 0;
+}
+#header img{
+border-radius: 300px;
+
+}
+#header a {
+text-decoration: none;
+font-size: 40px;
+}
+
+#header ul{
+padding: 0;
+}
+
+#header li{
+margin: 0 10px;
+display: inline-block;
+}
+
+h2 > a {
+position: relative;
+color: #ffffff;
+text-decoration: none;
+}
+
+il {
+position: relative;
+color: #0c0c0c;
+text-decoration: none;
+}
+
+il:hover {
+color: #414141;
+}
+
+il:before {
+content: "";
+position: absolute;
+width: 100%;
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #ffffff;
+visibility: hidden;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.26s ease-in-out 0s;
+transition: all 0.26s ease-in-out 0s;
+}
+
+il:hover:before {
+visibility: visible;
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
+}
+
+il {
+font-size: 50px;
+margin: 1px 100px; 
+}
+
+h1 {
+border-right: 1px solid white;
+margin-top: 200px
+
+}
+
+
+header {
+border-bottom: 1px solid white;
+
+}
+
+ul a{
+color:white;
+}
+
+header {position:fixed; 
+top:0px; margin:auto;
+z-index:100000;
+width:100%;
+padding-top: 30px;
+padding-bottom: 50px
+} 
+
+
+.title {
+padding-top: 50px
+}
+
+body {
+background-image: url("Blue-HD-Background-Wallpaper.jpg");
+background-repeat: no-repeat;
+background: cover;
+}
+
+img  {
+margin-left: 0px;
+margin-top: 300px;
+border: 1px solid;
+height: 300px;
+}
+h3 {
+font-family: ubuntu;
+padding-bottom: 
+}
+.atc {
+font-size:32px;
+}
+h1 {
+text-shadow: 1px 1px #0f1022;
 }
 img {
-border-radius: 150px;
-  height: 200px;
+border-radius:300px; 
 }
-
-  
-
-#name {
-  bottom:50px; 
-  position:relative
-  } 
-
-
-
-header a {
-  display:inline-block;
-  text-decoration: none;
-    font-size: 25px;
-    padding:20px;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-    
-}
-
-
- 
-body {
-  font-family: "Open Sans", sans-serif;
-  text-align:center;
-}
-
-header {
-  display: block;
-  background-color: white;
-  width: 100%;
-  position:relative;
-    text-align: center;
-    border-bottom: 1px solid white;
+.ghtclan {
 
 }
 
-
-
-header li a {
-  text-decoration: none;
-  background-color: red;
-  font-weight: 900;
-  letter-spacing: 5px;
+li {
+color: aliceblue;
+font-size: 30px
 }
-
-#name {
-  padding-top: 100px;
-}
-
-#name h1 {
-  font-weight: 100;
-  font-size:60px;
-  color:white;
-  margin: 0;
-padding-bottom: 30px;
-}
-
-#name h2 {
-  font-weight: 400;
-  margin: 0px;
-  color:white;
-    margin-left:100px;
-     margin-right:100px;
-    
-}
-section {
-  height: 725px;
-  background-image:url(untitled.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
-
-a  {
-  background-color: red;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  text-decoration: none;
-  
-}
-
-a {
-    text-decoration:none;
-    color:white;
-    
-}
-a:hover {
-  background-color: #a20000; 
-  color: white;
-}
-
-header a{
-  background-color:rgba(0, 0, 0, 0);
-}
-
-header {
-  background-color:rgba(0, 0, 0, 0);
-padding-bottom: 10px;
-    padding-top: 10px;
-    z-index:10000;
-    
-}
-
-a {
-    display: inline-block;
-  background: red;
-  color: #fff;
-  height: 100px;
-    line-height: 60px;
-  width: 150px;
-  border: 0;
-  transition: all 0.3s ease 0s;
-}
-
-section {
-  padding-top:px;
-}
-
-a {
-      background: red;
-  color: #fff;
-  height: 60px;
-  width: 150px;
-  border: 0;
-  transition: all 0.3s ease 0.s;
-}
-
-#awesome {
-    padding-top: 
-}
-
-#qbox {
-        width: 200px;
-    height: 60px;
-    font-size: 43px;
-    padding: 20px;
-    font-family:impact;
-    margin-bottom: 20px;
-}
-
-iframe {
-    position:relative;
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    
-}
-
 h2 {
-    padding:30px;
+color: white;
+font-family: ubuntu;
+font-size: 40px
+}
+{
+display: inline-block
 }
 
-font {
-    font-family: Marker Felt;
+.brighten img {
+-webkit-filter: brightness(50%);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all .5s ease;
 }
 
-html {
-    overflow: hidden;
-    height: 100%;
+.brighten img:hover {
+-webkit-filter: brightness(100%);
+outline-color: aliceblue;
 }
 
-body {
-    height: 100%;
-    overflow: auto;
+.derk{
+color:black;
+display:inline-block;
+background-color: #354dff;
+padding: 25px;
+
+height: px;
+border-radius: 20px;
+border-style: solid;
+margin:50px;
+}
+.person{
+color:black;
+display:inline-block;
+background-color: #354dff;
+padding: 25px;
+
+height: px;
+border-radius: 20px;
+border-style: solid;
+margin:50px;
+
+}
+.ligar{
+color:black;
+display:inline-block;
+background-color: #354dff;
+padding: 25px;
+
+height: px;
+border-radius: 20px;
+border-style: solid;
+margin:50px;
 }
 
-body { 
-background-repeat: no-repeat; 
-    background-size: cover;
-    background-image:url(abstract.jpg)
+.developer {
+text-align: center;
+
+}
+ul {
+list-style-type: none;
+}
+
+li {
+border-bottom: 1px solid;
+padding-bottom: 20px;
+padding-top: 20px;
+text-align-last: center
+
+
+}
+#moretext{
+display:block;
+text-align: center;
+padding-bottom: 18px
+
+}
+.atc {
+-webkit-filter: brightness(100%);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.person {
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.derk {
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+.ligar {
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
